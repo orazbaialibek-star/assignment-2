@@ -1,14 +1,11 @@
 package models;
 
 public class Student extends Person {
-    private final int id;
-    private static int Stud_id_gen = 1;
     private double gpa;
     private double stepend;
 
     public Student(String name, String surname, double gpa){
         super(name, surname);
-        id = Stud_id_gen++;
         setGpa(gpa);
     }
 
