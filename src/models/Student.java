@@ -23,7 +23,7 @@ public class Student extends Person {
 
     @Override
     public String toString(){
-        return getPosition() + " " + super.toString() + " " + gpa + " " + getPaymentAmount() + " tenge";
+        return getPosition() + " " + super.toString() + " " + getGpa() + " " + getPaymentAmount() + " tenge";
     }
 
     @Override
