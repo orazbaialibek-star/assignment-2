@@ -28,7 +28,7 @@ public class Main {
             people.add(new Employee(scE.next(), scE.next(), scE.next(), scE.nextDouble()));
         }
 
-        while (scS.hasNextLine()) {
+        while (scS.hasNext()) {
             people.add(new Student(scS.next(), scS.next(), scS.nextDouble()));
         }
 
