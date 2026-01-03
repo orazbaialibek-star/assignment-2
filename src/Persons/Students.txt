@@ -1,4 +1,5 @@
 Orazbai Alibek 3,34
-Alibai Orazbek 2,50
+Boris Johnson 3,05
 Stupid Studentov 1,00
-Smart AsHellov 4,00
+Smart Studentov 4,00
+Albert Einstein 4,00

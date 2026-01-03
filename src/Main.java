@@ -19,20 +19,16 @@ public class Main {
         Scanner scE = new Scanner(fileE);
         Scanner scS = new Scanner(fileS);
 
-        while (scE.hasNextLine()) {
-            String name = scE.next();
-            String surname = scE.next();
-            String position = scE.next();
-            double salary = scE.nextDouble();
-            people.add(new Employee(name, surname, position, salary));
+        while (scE.hasNext()) {
+            people.add(new Employee(scE.next(), scE.next(), scE.next(), scE.nextDouble()));
         }
 
         while (scS.hasNextLine()) {
-            String name = scS.next();
-            String surname = scS.next();
-            double gpa = scS.nextDouble();
-            people.add(new Student(name, surname, gpa));
+            people.add(new Student(scS.next(), scS.next(), scS.nextDouble()));
         }
+
+        scS.close();
+        scE.close();
 
         Collections.sort(people);
 
