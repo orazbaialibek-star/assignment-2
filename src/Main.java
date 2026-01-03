@@ -9,6 +9,11 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Main {
+    public static void printData(Iterable<Person> people) {
+        for (Person person : people) {
+            System.out.println(person.toString() + " earns " + person.getPaymentAmount() + " tenge");
+        }
+    }
     public static void main(String[] args) throws FileNotFoundException {
 
         ArrayList<Person> people = new ArrayList<>();
@@ -29,8 +34,6 @@ public class Main {
 
         Collections.sort(people);
 
-        for (Person person : people){
-            System.out.println(person);
-        }
+        printData(people);
     }
 }
