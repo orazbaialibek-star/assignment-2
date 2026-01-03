@@ -29,7 +29,7 @@ public class Employee extends Person {
 
     @Override
     public String toString() {
-        return getPosition() + " " + super.toString();
+        return "Employee (" + getPosition() + ") " + super.toString();
     }
 
     @Override
