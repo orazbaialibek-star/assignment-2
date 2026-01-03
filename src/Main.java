@@ -27,9 +27,6 @@ public class Main {
             people.add(new Student(scS.next(), scS.next(), scS.nextDouble()));
         }
 
-        scS.close();
-        scE.close();
-
         Collections.sort(people);
 
         for (Person person : people){

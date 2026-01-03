@@ -3,4 +3,4 @@ Alimzhan Yessenov Lector 1234500
 Sandughash Tulayeva Lector 250450
 Tilek Zhumabek Lector 540500
 Mukhmetov Olzhas Lector 540500
-Santa Claus Lector 10000000
+Santa Claus Lector 5000000
