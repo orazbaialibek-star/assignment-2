@@ -30,10 +30,10 @@ public class Student extends Person {
     public double getPaymentAmount(){
         if(gpa >= 3.67){
             return  62450;
-        } else if (gpa >= 2.67) {
-            return 52450;
-        } else {
-            return  0;
         }
+        if (gpa >= 2.67) {
+            return 52450;
+        }
+        return 0;
     }
 }
