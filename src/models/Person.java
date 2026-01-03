@@ -44,11 +44,9 @@ public abstract class Person implements Payable, Comparable<Person>  {
         if (getPaymentAmount() > anotherPerson.getPaymentAmount()) {
             return 1;
         }
-
         if (getPaymentAmount() < anotherPerson.getPaymentAmount()) {
             return -1;
         }
-
         return 0;
     }
 }

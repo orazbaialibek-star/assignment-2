@@ -2,7 +2,6 @@ package models;
 
 public class Student extends Person {
     private double gpa;
-    private double stepend;
 
     public Student(String name, String surname, double gpa){
         super(name, surname);
@@ -15,14 +14,6 @@ public class Student extends Person {
 
     public void setGpa(double gpa) {
         this.gpa = gpa;
-    }
-
-    public void setStepend(double stepend) {
-        this.stepend = stepend;
-    }
-
-    public double getStepend() {
-        return stepend;
     }
 
     @Override
@@ -38,10 +29,9 @@ public class Student extends Person {
     @Override
     public double getPaymentAmount(){
         if(gpa >= 2.67){
-            stepend = 52450;
+            return  52450;
         } else {
-            stepend = 0;
+            return  0;
         }
-        return stepend;
     }
 }

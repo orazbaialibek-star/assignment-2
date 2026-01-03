@@ -1,4 +1,4 @@
-Orazbai Alibek 3.34
-Alibai Orazbek 0.00
-Stupid Studentov -4.00
-Smart AsHellov 40.00
+Orazbai Alibek 3,34
+Alibai Orazbek 2,50
+Stupid Studentov 1,00
+Smart AsHellov 4,00
